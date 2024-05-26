@@ -1,0 +1,123 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+	/*** En tête ***/
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+    /*** logo ***/
+    .logo {
+        padding: 30px;
+    }
+	/*** Nav ***/
+	nav {
+		width: 100%;
+		gap: 0px;
+	}
+	nav div {
+		width: 50%;
+        justify-content: center;
+		border-top: white;
+		border-bottom: solid #F2F2F2;
+		padding-bottom: 20px;
+	}
+	nav div:hover {
+		border-top: white;
+		border-bottom: solid #0065FC;
+		padding-bottom: 20px;
+	}
+	.search-bar__titles {
+		padding: 20px;
+	}
+	.main-container {
+		padding: 0;
+	}
+	.search-bar--button {
+		padding: 15px 16px 15px 16px;
+		border-radius: 15px;
+	}
+	#bouton1 {
+		display: none;
+	}
+	#bouton2 {
+		display: block;
+	}
+	.input-search {
+		box-shadow: 0 0 0 1px #F2F2F2 inset;
+		border-radius: 15px;
+	}
+	.inputtext {
+		border-right: 0;
+		width: 100%;
+	}
+	/*** FILTRE ***/
+	.Barre_de_Filtres {
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	/* Conteneur qui contient les boutons */
+	.container-bouton {
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 10px;
+		column-gap: 10px;
+		margin-right: 0;
+	}
+	/* Boutons et changement d'opacité lors du survolement */
+	.Bouton_filtre {
+		width: calc(44% - 10px);
+		align-items: center;
+		margin-right: 0px;
+		font-size: 14px;
+		padding-right: 0;
+	}
+	/*** Populaire ***/
+	.populaires {
+		order: 1;
+	}
+	.populaires-cards {
+		display: block;
+	}
+	/*** Hébergement ***/
+	.hebergements {
+		order: 2;
+	}
+	.container_card_hebergements {
+		display: block;
+		padding: 20px;
+	}
+	.card {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	/*** Activité ***/
+	.container-card-activites {
+		display: flex;
+		padding: 30px;
+	}
+	.activites h3 {
+		padding: 30px;
+	}
+	.card-activites {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	/**** Pied de page ***/
+	footer {
+		flex-direction: column;
+		width: 100%;
+		padding: 30px;
+		gap: 50px
+	}
+	.bloc h2 {
+		font-size: 18px;
+	}
+	.bloc p {
+		font-size: 16px;
+	}
+}
+     
