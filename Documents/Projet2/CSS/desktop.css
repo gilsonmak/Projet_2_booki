@@ -2,7 +2,6 @@
 * {
 	font-family: 'Raleway', sans-serif;
 }
-
 header {
 	display: flex;
 	/* Utilisation de flexbox pour aligner les éléments */
@@ -180,18 +179,6 @@ a {
 }
 .neutral-star {
 	color: var(--main-bg-color)
-}
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
-	display: flex;
-	justify-content: space-between;
-	gap: 30px;
-}
-.hebergements-and-populaires section {
-	background-color: var(--main-bg-color);
-	border-radius: 20px;
-	padding: 30px;
-	box-sizing: border-box;
 }
 /****** Hebergements ***********/
 .hebergements {
