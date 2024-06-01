@@ -75,6 +75,10 @@
 		font-size: 14px;
 		padding-right: 0;
 	}
+	/** Hébergements et Populaires **/
+	.hebergements-and-populaires section {
+		padding: 30px;
+	}
 	/*** Populaire ***/
 	.populaires {
 		order: 1;
@@ -87,20 +91,24 @@
 		background-color: white;
 		order: 2;
 	}
-	.container_card_hebergements {
-		display: block;
-		padding: 20px;
+	.hebergements a {
+		width: 100%;
+	}
+	.hebergements .first-row, .second-row {
+		flex-direction: column;
+		justify-content: center;
+		gap: 10px;
 	}
 	.card {
 		width: 100%;
 		margin-bottom: 20px;
 	}
 	/*** Activité ***/
+	.activites h2 {
+		padding: 20px;
+	}
 	.container-card-activites {
 		display: flex;
-		padding: 30px;
-	}
-	.activites h3 {
 		padding: 30px;
 	}
 	.card-activites {
