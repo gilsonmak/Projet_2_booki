@@ -51,7 +51,7 @@
 		border-right: 0;
 		width: 100%;
 	}
-	/*** FILTRE ***/
+	/*** FILTRES ***/
 	.Barre_de_Filtres {
 		flex-direction: column;
 		justify-content: space-between;
@@ -78,14 +78,14 @@
 	.hebergements-and-populaires section {
 		padding: 30px;
 	}
-	/*** Populaire ***/
+	/*** Populaires ***/
 	.populaires {
 		order: 1;
 	}
 	.populaires-cards {
 		display: block;
 	}
-	/*** Hébergement ***/
+	/*** Hébergements ***/
 	#hebergements {
 		background-color: white;
 		order: 2;
@@ -102,7 +102,7 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
-	/*** Activité ***/
+	/*** Activités ***/
 	.activites h2 {
 		padding: 20px;
 	}
