@@ -243,6 +243,36 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+/* Pointer*/
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #BEB45A;
+  border-radius: 0;
+  color: #242424;
+
+
+
+
+}
+.nav-pills .nav-link {
+  cursor: pointer; 
+  color: #000000;
+}
+
+
+
+/* Couleur filtre */
+
+.carousel-control-prev,
+.carousel-control-next {
+ 
+  color: initial !important;
+  
+}
+
+
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
